@@ -1,13 +1,13 @@
 <?php
 
 
-namespace DassumanLaravelTickets\Observers;
+namespace Dassuman\LaravelTickets\Observers;
 
 
-use DassumanLaravelTickets\Events\TicketMessageEvent;
-use DassumanLaravelTickets\Models\TicketActivity;
-use DassumanLaravelTickets\Models\TicketMessage;
-use DassumanLaravelTickets\Models\TicketUpload;
+use Dassuman\LaravelTickets\Events\TicketMessageEvent;
+use Dassuman\LaravelTickets\Models\TicketActivity;
+use Dassuman\LaravelTickets\Models\TicketMessage;
+use Dassuman\LaravelTickets\Models\TicketUpload;
 use Storage;
 
 class TicketMessageObserver

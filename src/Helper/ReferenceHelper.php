@@ -1,14 +1,14 @@
 <?php
 
 
-namespace DassumanLaravelTickets\Helper;
+namespace Dassuman\LaravelTickets\Helper;
 
 /**
  * Class ReferenceHelper
  *
  * Provides helper functions for the ticket reference
  *
- * @package DassumanLaravelTickets\Helper
+ * @package Dassuman\LaravelTickets\Helper
  */
 class ReferenceHelper
 {

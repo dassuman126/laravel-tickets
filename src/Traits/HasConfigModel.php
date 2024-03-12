@@ -1,14 +1,14 @@
 <?php
 
 
-namespace DassumanLaravelTickets\Traits;
+namespace Dassuman\LaravelTickets\Traits;
 
 /**
  * Trait HasConfigModel
  *
  * Is used internal for using configuration elements
  *
- * @package DassumanLaravelTickets\Traits
+ * @package Dassuman\LaravelTickets\Traits
  */
 trait HasConfigModel
 {

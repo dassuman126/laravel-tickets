@@ -1,10 +1,10 @@
 <?php
 
 
-namespace DassumanLaravelTickets\Observers;
+namespace Dassuman\LaravelTickets\Observers;
 
 
-use DassumanLaravelTickets\Models\TicketUpload;
+use Dassuman\LaravelTickets\Models\TicketUpload;
 
 class TicketUploadObserver
 {

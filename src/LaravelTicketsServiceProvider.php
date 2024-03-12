@@ -1,17 +1,17 @@
 <?php
 
-namespace DassumanLaravelTickets;
+namespace Dassuman\LaravelTickets;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use DassumanLaravelTickets\Commands\AutoCloseCommand;
-use DassumanLaravelTickets\Models\Ticket;
-use DassumanLaravelTickets\Models\TicketMessage;
-use DassumanLaravelTickets\Models\TicketUpload;
-use DassumanLaravelTickets\Observers\TicketMessageObserver;
-use DassumanLaravelTickets\Observers\TicketObserver;
-use DassumanLaravelTickets\Observers\TicketUploadObserver;
+use Dassuman\LaravelTickets\Commands\AutoCloseCommand;
+use Dassuman\LaravelTickets\Models\Ticket;
+use Dassuman\LaravelTickets\Models\TicketMessage;
+use Dassuman\LaravelTickets\Models\TicketUpload;
+use Dassuman\LaravelTickets\Observers\TicketMessageObserver;
+use Dassuman\LaravelTickets\Observers\TicketObserver;
+use Dassuman\LaravelTickets\Observers\TicketUploadObserver;
 
 class LaravelTicketsServiceProvider extends ServiceProvider
 {

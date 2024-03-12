@@ -1,18 +1,18 @@
 <?php
 
 
-namespace DassumanLaravelTickets\Traits;
+namespace Dassuman\LaravelTickets\Traits;
 
 
 use Illuminate\Database\Eloquent\Relations\HasMany;
-use DassumanLaravelTickets\Models\Ticket;
+use Dassuman\LaravelTickets\Models\Ticket;
 
 /**
  * Trait HasTickets
  *
  * Extends the user model with functions
  *
- * @package DassumanLaravelTickets\Traits
+ * @package Dassuman\LaravelTickets\Traits
  */
 trait HasTickets
 {

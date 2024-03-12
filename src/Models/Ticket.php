@@ -1,19 +1,19 @@
 <?php
 
 
-namespace DassumanLaravelTickets\Models;
+namespace Dassuman\LaravelTickets\Models;
 
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
-use DassumanLaravelTickets\Traits\HasConfigModel;
+use Dassuman\LaravelTickets\Traits\HasConfigModel;
 
 /**
  * Class Ticket
  *
  * The main data model for the ticket system
  *
- * @package DassumanLaravelTickets\Models
+ * @package Dassuman\LaravelTickets\Models
  */
 class Ticket extends Model
 {

@@ -1,15 +1,15 @@
 <?php
 
 
-namespace DassumanLaravelTickets\Observers;
+namespace Dassuman\LaravelTickets\Observers;
 
 
 use Ramsey\Uuid\Uuid;
-use DassumanLaravelTickets\Events\TicketCloseEvent;
-use DassumanLaravelTickets\Events\TicketOpenEvent;
-use DassumanLaravelTickets\Models\Ticket;
-use DassumanLaravelTickets\Models\TicketActivity;
-use DassumanLaravelTickets\Models\TicketMessage;
+use Dassuman\LaravelTickets\Events\TicketCloseEvent;
+use Dassuman\LaravelTickets\Events\TicketOpenEvent;
+use Dassuman\LaravelTickets\Models\Ticket;
+use Dassuman\LaravelTickets\Models\TicketActivity;
+use Dassuman\LaravelTickets\Models\TicketMessage;
 
 class TicketObserver
 {

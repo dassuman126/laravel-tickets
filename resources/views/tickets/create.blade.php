@@ -139,7 +139,7 @@ label{
                                 <label>@lang('Category')</label>
                                 <select class="form-control @error('category_id') is-invalid @enderror"
                                         name="category_id">
-                                    @foreach (\DassumanLaravelTickets\Models\TicketCategory::all() as $ticketCategory)
+                                    @foreach (\Dassuman\LaravelTickets\Models\TicketCategory::all() as $ticketCategory)
 
                                         <option value="{{ $ticketCategory->id }}"
                                                 @if (old('category_id') === $ticketCategory->id)

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace DassumanLaravelTickets\Events;
+namespace Dassuman\LaravelTickets\Events;
 
 
 use Illuminate\Broadcasting\Channel;
@@ -11,15 +11,15 @@ use Illuminate\Broadcasting\PrivateChannel;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
-use DassumanLaravelTickets\Models\Ticket;
-use DassumanLaravelTickets\Models\TicketMessage;
+use Dassuman\LaravelTickets\Models\Ticket;
+use Dassuman\LaravelTickets\Models\TicketMessage;
 
 /**
  * Class TicketMessageEvent
  *
  * Fired when a ticket gets answered by a user
  *
- * @package DassumanLaravelTickets\Events
+ * @package Dassuman\LaravelTickets\Events
  */
 class TicketMessageEvent
 {

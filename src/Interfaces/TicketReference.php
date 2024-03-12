@@ -1,7 +1,7 @@
 <?php
 
 
-namespace DassumanLaravelTickets\Interfaces;
+namespace Dassuman\LaravelTickets\Interfaces;
 
 
 interface TicketReference

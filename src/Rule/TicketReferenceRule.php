@@ -1,12 +1,12 @@
 <?php
 
 
-namespace DassumanLaravelTickets\Rule;
+namespace Dassuman\LaravelTickets\Rule;
 
 
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Database\Eloquent\Relations\Relation;
-use DassumanLaravelTickets\Interfaces\TicketReference;
+use Dassuman\LaravelTickets\Interfaces\TicketReference;
 
 class TicketReferenceRule implements Rule
 {

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace DassumanLaravelTickets\Traits;
+namespace Dassuman\LaravelTickets\Traits;
 
 /**
  * Trait HasTicketReference
@@ -9,7 +9,7 @@ namespace DassumanLaravelTickets\Traits;
  * For ticket references, when used on a model,
  * the model also needs to be registered in the configuration
  *
- * @package DassumanLaravelTickets\Traits
+ * @package Dassuman\LaravelTickets\Traits
  */
 trait HasTicketReference
 {

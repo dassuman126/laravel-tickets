@@ -1,18 +1,18 @@
 <?php
 
 
-namespace DassumanLaravelTickets\Models;
+namespace Dassuman\LaravelTickets\Models;
 
 
 use Illuminate\Database\Eloquent\Model;
-use DassumanLaravelTickets\Traits\HasConfigModel;
+use Dassuman\LaravelTickets\Traits\HasConfigModel;
 
 /**
  * Class TicketUpload
  *
  * When a user sent a message with a file, the file gets attached to the ticket message
  *
- * @package DassumanLaravelTickets\Models
+ * @package Dassuman\LaravelTickets\Models
  */
 class TicketUpload extends Model
 {

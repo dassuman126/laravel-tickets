@@ -1,18 +1,18 @@
 <?php
 
 
-namespace DassumanLaravelTickets\Models;
+namespace Dassuman\LaravelTickets\Models;
 
 
 use Illuminate\Database\Eloquent\Model;
-use DassumanLaravelTickets\Traits\HasConfigModel;
+use Dassuman\LaravelTickets\Traits\HasConfigModel;
 
 /**
  * Class TicketActivity
  *
  * This data model is used to log every action that was fired by a interaction
  *
- * @package DassumanLaravelTickets\Models
+ * @package Dassuman\LaravelTickets\Models
  */
 class TicketActivity extends Model
 {

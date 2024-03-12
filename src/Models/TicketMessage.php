@@ -1,18 +1,18 @@
 <?php
 
 
-namespace DassumanLaravelTickets\Models;
+namespace Dassuman\LaravelTickets\Models;
 
 
 use Illuminate\Database\Eloquent\Model;
-use DassumanLaravelTickets\Traits\HasConfigModel;
+use Dassuman\LaravelTickets\Traits\HasConfigModel;
 
 /**
  * Class TicketMessage
  *
  * The message that a user sent
  *
- * @package DassumanLaravelTickets\Models
+ * @package Dassuman\LaravelTickets\Models
  */
 class TicketMessage extends Model
 {

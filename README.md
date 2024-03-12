@@ -47,12 +47,12 @@ Ticket Close:
 You can install the package via composer:
 
 ```bash
-composer require rexlmanu/laravel-tickets
+composer require dassuman/laravel-tickets:dev-main
 ```
 
 After the installation
 ```bash
-php artisan vendor:publish --provider=DassumanLaravelTickets\LaravelTicketsServiceProvider
+php artisan vendor:publish --provider=Dassuman\LaravelTickets\LaravelTicketsServiceProvider
 ```
 
 ## Documentation
@@ -62,7 +62,7 @@ Currently the views are only implemented for bootstrap. After publishing, you sh
 The trait ``HasTickets`` should be added to the user model
 ```php
 
-use DassumanLaravelTickets\Traits\HasTickets;
+use Dassuman\LaravelTickets\Traits\HasTickets;
 
 class User
 {
@@ -74,7 +74,7 @@ The ticket routes can be implemented via the macro
 ```php
 
 use Illuminate\Routing\Controller;
-use DassumanLaravelTickets\Controllers\TicketControllable;
+use Dassuman\LaravelTickets\Controllers\TicketControllable;
 
 class TicketController extends Controller {
 
@@ -85,35 +85,7 @@ class TicketController extends Controller {
 Route::tickets( TicketController::class );
 ```
 
-For ticket referneces
-```php
-
-use Illuminate\Database\Eloquent\Model;
-use DassumanLaravelTickets\Interfaces\TicketReference;
-use DassumanLaravelTickets\Traits\HasTicketReference;
-
-class ExampleModel extends Model implements TicketReference {
-
-  use HasTicketReference;
-
-  // Check if user has access to this model
-  function hasReferenceAccess() : bool {
-      return request()->user()->user_id == $this->user_id;
-  }
-
-}
-
-```
-Add this model to the list of reference models now
-and Then you should see this model as reference
-
 Config: All points of the configuration are documented.
-
-### Testing
-
-``` bash
-composer test
-```
 
 ## Contributing
 
@@ -125,8 +97,8 @@ If you discover any security related issues, please email rexlmanude@gmail.com i
 
 ## Credits
 
-- [Emmanuel Lampe](https://github.com/rexlmanu)
-- [René Roscher](https://github.com/rene-roscher)
+- [Anirudha Pal](https://github.com/rexlmanu)
+- [Suman DAs](https://github.com/rene-roscher)
 - [All Contributors](../../contributors)
 
 ## License

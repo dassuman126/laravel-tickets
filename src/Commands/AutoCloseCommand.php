@@ -1,10 +1,10 @@
 <?php
 
 
-namespace DassumanLaravelTickets\Commands;
+namespace Dassuman\LaravelTickets\Commands;
 
 use Illuminate\Console\Command;
-use DassumanLaravelTickets\Models\Ticket;
+use Dassuman\LaravelTickets\Models\Ticket;
 
 /**
  * Class AutoCloseCommand
@@ -12,7 +12,7 @@ use DassumanLaravelTickets\Models\Ticket;
  * The command checks if a ticket is unanswered a specific time,
  * that is in the configuration defined and then close it
  *
- * @package DassumanLaravelTickets\Commands
+ * @package Dassuman\LaravelTickets\Commands
  */
 class AutoCloseCommand extends Command
 {

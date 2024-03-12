@@ -1,7 +1,7 @@
 <?php
 
 
-namespace DassumanLaravelTickets\Controllers;
+namespace Dassuman\LaravelTickets\Controllers;
 
 
 use Illuminate\Http\JsonResponse;
@@ -9,12 +9,12 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
 use Illuminate\View\View;
-use DassumanLaravelTickets\Models\Ticket;
-use DassumanLaravelTickets\Models\TicketCategory;
-use DassumanLaravelTickets\Models\TicketMessage;
-use DassumanLaravelTickets\Models\TicketReference;
-use DassumanLaravelTickets\Models\TicketUpload;
-use DassumanLaravelTickets\Rule\TicketReferenceRule;
+use Dassuman\LaravelTickets\Models\Ticket;
+use Dassuman\LaravelTickets\Models\TicketCategory;
+use Dassuman\LaravelTickets\Models\TicketMessage;
+use Dassuman\LaravelTickets\Models\TicketReference;
+use Dassuman\LaravelTickets\Models\TicketUpload;
+use Dassuman\LaravelTickets\Rule\TicketReferenceRule;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 /**
@@ -24,7 +24,7 @@ use Symfony\Component\HttpFoundation\BinaryFileResponse;
  *
  * If the accept header is json, the response will be a json response
  *
- * @package DassumanLaravelTickets\Controllers
+ * @package Dassuman\LaravelTickets\Controllers
  */
 trait CategoryControllable
 {
